@@ -14,79 +14,79 @@ import TonerImg from "../../public/images/Products/toner.jpg";
 export const Products = [
     {
         id: 1,
-        Name : "Forever Aloe Vera Gelly",
+        name: "Forever Aloe Vera Gelly",
         category: "Skin Care",
         price: 169.81,
-        imgUrL : AloeGellyImg
+        imgUrl: AloeGellyImg
     },
     {
         id: 2,
-        Name : "Alpha-E Factor",
+        name: "Alpha-E Factor",
         category: "Skin Care",
-        price : 376.45,
-        imgUrL: AlphaEImg
+        price: 376.45,
+        imgUrl: AlphaEImg
     },
     {
         id: 3,
-        Name : "Forever Arctic Sea",
+        name: "Forever Arctic Sea",
         category: "Nutritional",
         price: 313.04,
-        imgUrL: ArcticSeaImg
+        imgUrl: ArcticSeaImg
     },
     {
         id: 4,
-        Name : "Forever Aloe Body Lotion",
+        name: "Forever Aloe Body Lotion",
         category: "Skin Care",
         price: 213.91,
         imgUrl: BodyLotionImg
     },
     {
         id: 5,
-        Name : "Forever Aloe Body Wash",
+        name: "Forever Aloe Body Wash",
         category: "Skin Care",
         price: 211.59,
         imgUrl: BodyWashImg
     },
     {
         id: 6,
-        Name : "Forever Daily",
+        name: "Forever Daily",
         category: "Nutritional",
         price: 198.06,
-        imgUrL: DailyImg
+        imgUrl: DailyImg
     },
     {
         id: 7,
-        Name : "Aloe Ever-Shield Deodorant Stick",
+        name: "Aloe Ever-Shield Deodorant Stick",
         category: "Personal",
         price: 81.78,
-        imgUrL: DeodorantImg
+        imgUrl: DeodorantImg
     },
     {
         id: 8,
-        Name : "Forever Kids",
+        name: "Forever Kids",
         category: "Nutritional",
         price: 124.03,
-        imgUrL: KidsImg
-    },
-    {
-        id: 8,
-        Name : "Forever Move",
-        category: "Nutritional",
-        price: 586.54,
-        imgUrL: MoveImg
+        imgUrl: KidsImg
     },
     {
         id: 9,
-        Name : "Aloe Sunscreen",
+        name: "Aloe Sunscreen",
         category: "Skin Care",
         price: 195.18,
         imgUrl: SunscreenImg
     },
     {
         id: 10,
-        Name : "Balancing Toner",
+        name: "Balancing Toner",
         category: "Skin Care",
         price: 204.13,
         imgUrl: TonerImg
     },
-]
+    {
+        id: 11,
+        name: "Forever Move",
+        category: "Nutritional",
+        price: 586.54,
+        imgUrl: MoveImg
+    },
+];
