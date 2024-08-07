@@ -1,11 +1,20 @@
-import { Button, Nav, Navbar as NavbarBs } from "react-bootstrap";
+import { Button, Image, Nav, Navbar as NavbarBs } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import logoImage from "../../public/images/logo.png";
 export function Navbar() {
   return (
     <NavbarBs className="bg-white shadow-sm" sticky="top">
-      <Container>
-        <Nav className="me-auto">
+      <Container className="me-auto">
+        <div className="d-flex justify-content-center align-items-center gap-2">
+        <Image
+          src={logoImage}
+          className="rounded-circle"
+          style={{ width: "3rem", height: "3rem" }}
+        />
+        <h6>Forever Living Products</h6>
+        </div>
+        <Nav >
           <Nav.Link to="/" as={NavLink}>
             {" "}
             Home
@@ -18,9 +27,8 @@ export function Navbar() {
             {" "}
             Store
           </Nav.Link>
-        </Nav>
-        <Button
-          style={{ width: "3rem", height: "3rem", position:"relative" }}
+          <Button
+          style={{ width: "3rem", height: "3rem", position: "relative" }}
           className="rounded-circle"
           variant="outline-primary"
         >
@@ -36,11 +44,21 @@ export function Navbar() {
           </svg>
           <div
             className="rounded-circle flex justify-content-center align-items-center bg-danger"
-            style={{ width: "1.5rem" , height: "1.5rem", position:"absolute", color:"white" , bottom: "0" , right: "0" , transform: "translate(25%, 25%)"}}
+            style={{
+              width: "1.5rem",
+              height: "1.5rem",
+              position: "absolute",
+              color: "white",
+              bottom: "0",
+              right: "0",
+              transform: "translate(25%, 25%)",
+            }}
           >
             3
           </div>
         </Button>
+        </Nav>
+        
       </Container>
     </NavbarBs>
   );
